@@ -1,0 +1,115 @@
+/*div {
+  border: 1px solid white;
+}*/
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
+}
+header img {
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.navigation {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 50px;
+}
+.navigation a {
+  padding: 10px 20px;
+  color: seashell;
+}
+.main-body {
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+#Mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+#Mission .container-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.container-header {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  padding-top: 69px;
+  padding-bottom: 15px;
+}
+.container-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+.container-image {
+  padding: 5px;
+}
+.container-image img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.container-image h4 {
+  padding: 0;
+}
+#Locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+#Locations .container-header {
+  background-color: transparent;
+}
+.container-text-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1100px;
+  margin: auto;
+}
+.container-text {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 0.9;
+  margin: 15px 20px;
+}
+.container-contact {
+  text-align: center;
+  margin: auto;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
